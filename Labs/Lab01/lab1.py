@@ -16,3 +16,10 @@ var1 = int(input("Enter your first variable: "))
 var2 = int(input("Enter your second variable: "))
 operate = input("Enter your desired operator (+, -, x, or %): ")
 
+operate_dict = {
+    "+": operator.add,
+    "-": operator.sub,
+    "x": operator.mul,
+    "%": operator.mod
+}
+
