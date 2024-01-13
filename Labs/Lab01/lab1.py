@@ -23,3 +23,8 @@ operate_dict = {
     "%": operator.mod
 }
 
+if operate not in ["+", "-", "x", "%"]:
+    print('\nInvalid.')
+
+else:
+    print(f"\nThe result of your calculation is: {operate_dict[operate](var1, var2)}")
